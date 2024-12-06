@@ -21,7 +21,7 @@
         android:layout_width="8dp"
         android:layout_height="0dp" />
 
-    <org.jellyfin.androidtv.ui.AsyncImageView
+    <org.jellyfin.sera.ui.AsyncImageView
         android:id="@+id/clock_user_image"
         android:layout_width="41dp"
         android:layout_height="41dp"

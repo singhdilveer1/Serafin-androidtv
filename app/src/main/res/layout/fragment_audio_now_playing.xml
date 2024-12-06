@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <org.jellyfin.androidtv.ui.ClockUserView
+    <org.jellyfin.sera.ui.ClockUserView
         android:id="@+id/clock"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -213,7 +213,7 @@
                 android:layout_marginEnd="60dp"
                 android:background="@drawable/audio_now_playing_album_background" />
 
-            <org.jellyfin.androidtv.ui.AsyncImageView
+            <org.jellyfin.sera.ui.AsyncImageView
                 android:id="@+id/poster"
                 android:layout_width="250dp"
                 android:layout_height="250dp"

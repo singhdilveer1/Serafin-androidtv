@@ -162,7 +162,7 @@
 
         <!-- Main -->
 
-        <org.jellyfin.androidtv.ui.ExpandableTextView
+        <org.jellyfin.sera.ui.ExpandableTextView
             android:id="@+id/fdSummaryText"
             android:layout_width="0dp"
             android:layout_height="0dp"
@@ -199,7 +199,7 @@
             app:layout_constraintTop_toTopOf="@id/guide_top"
             app:layout_constraintVertical_bias="0">
 
-            <org.jellyfin.androidtv.ui.AsyncImageView
+            <org.jellyfin.sera.ui.AsyncImageView
                 android:id="@+id/mainImage"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

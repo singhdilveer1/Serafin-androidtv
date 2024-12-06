@@ -28,7 +28,7 @@
         android:layout_below="@+id/channelName"
         android:layout_alignParentStart="true" />
 
-    <org.jellyfin.androidtv.ui.AsyncImageView
+    <org.jellyfin.sera.ui.AsyncImageView
         android:layout_width="100sp"
         android:layout_height="50sp"
         android:id="@+id/channelImage"

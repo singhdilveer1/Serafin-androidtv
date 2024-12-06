@@ -33,7 +33,7 @@
 
         <androidx.fragment.app.FragmentContainerView
             android:id="@+id/leanback_fragment"
-            android:name="org.jellyfin.androidtv.ui.playback.overlay.LeanbackOverlayFragment"
+            android:name="org.jellyfin.sera.ui.playback.overlay.LeanbackOverlayFragment"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_gravity="center" />
@@ -67,7 +67,7 @@
         android:clickable="false"
         android:visibility="gone">
 
-        <org.jellyfin.androidtv.ui.AsyncImageView
+        <org.jellyfin.sera.ui.AsyncImageView
             android:id="@+id/item_logo"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
@@ -108,7 +108,7 @@
             app:layout_constraintTop_toBottomOf="@id/item_title"
             tools:text="Subtitle" />
 
-        <org.jellyfin.androidtv.ui.ClockUserView
+        <org.jellyfin.sera.ui.ClockUserView
             android:id="@+id/textClock"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -116,7 +116,7 @@
             app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
-    <org.jellyfin.androidtv.ui.playback.overlay.SkipOverlayView
+    <org.jellyfin.sera.ui.playback.overlay.SkipOverlayView
         android:id="@+id/skip_overlay"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />

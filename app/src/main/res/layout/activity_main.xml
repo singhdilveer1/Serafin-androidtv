@@ -13,7 +13,7 @@
         android:descendantFocusability="blocksDescendants"
         android:focusable="false" />
 
-    <org.jellyfin.androidtv.ui.browsing.DestinationFragmentView
+    <org.jellyfin.sera.ui.browsing.DestinationFragmentView
         android:id="@+id/content_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent" />
